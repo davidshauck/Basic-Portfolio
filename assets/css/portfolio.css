@@ -1,0 +1,33 @@
+  /* Portfolio */
+
+  .photoGrid {
+    margin-bottom: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: left;
+    clear: both;
+    border-bottom: none;
+  }
+
+  img.photoGrid {
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+
+  .photoContainer {
+    position: relative;
+  }
+
+  .text-block {
+    width: 93%;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
