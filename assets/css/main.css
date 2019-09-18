@@ -25,6 +25,14 @@ body {
   font-weight: bold;
 }
 
+section {
+  margin-bottom: 20px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid .5px #888;
+}
+
 .wrapper {
   width: 960px;
   padding: 20px;
@@ -32,6 +40,13 @@ body {
   margin-bottom: 20px;
   background-color: white;
   clear: both;
+}
+
+.aboutMe {
+  font-size: 24px;
+  color: #4aaaa5;
+  clear: both;
+  width: 960px;
 }
 
 .text {
@@ -50,35 +65,13 @@ img.photo {
   padding-top: 20px;
 }
 
-.aboutMe {
-  font-size: 24px;
-  color: #4aaaa5;
-  clear: both;
-  width: 960px;
-}
-
 .hairline {
   width: 100%;
   border-bottom: solid .5px #777777;
   clear: both;
 }
 
-.aboutBox {
-  width: 960px;
-  background-color: #fff;
-  /* padding: 0px 20px 0px 20px; */
-  line-height: 0px;
-  /* clear: both; */
-}
-
-section {
-  margin-bottom: 20px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  clear: both;
-  border-bottom: solid .5px #888;
-}
+/* navigation */
 
 #bullets {
   float: left;
@@ -114,6 +107,8 @@ li a {
 a:hover {
       color: #4aaaa5;
 }
+
+/* footer */
 
   footer {
     background-color: #666666;
